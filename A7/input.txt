@@ -1,0 +1,19 @@
+a:integer;
+b:real=5.253;
+c:real=15;
+ch:char='y';
+op:char='5';
+p:integer=10;
+q:integer=11;
+
+begin
+if(p < q) then
+	a = p * b + c;
+else
+	a = q / b - c;
+endif
+if(ch == op) then
+	p = a * b * c;
+endif
+q = a + b + c;
+end
